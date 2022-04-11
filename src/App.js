@@ -13,7 +13,7 @@ function App() {
         <Route path="/movie/id=:id">
           <Detail />
         </Route>
-        <Route>
+        <Route path = "/">
           <Home />
         </Route>
       </Switch>
